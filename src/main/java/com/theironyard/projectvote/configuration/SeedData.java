@@ -107,6 +107,9 @@ public class SeedData {
 		seed.createIf(data, joseph, "Data attribute governance");
 		seed.createIf(business, rudy, "Music portfolio app");
 		seed.createIf(business, rudy, "College review site");
+		
+		seed.createIf(social, luka, "SKETCH-E");
+		seed.createIf(social, dan, "Public bathroom rating app (Castanza App)");
 	}
 	
 	private static String schema() {

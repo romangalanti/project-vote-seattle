@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/projectvote
+    username: projectvote
+    password: projectvote
+  jpa:
+    hibernate:
+      ddl-auto: none

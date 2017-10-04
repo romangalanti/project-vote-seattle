@@ -82,34 +82,38 @@ public class SeedData {
 		seed.createIf(charity, lyndsay, "Charity needs monitor");
 		seed.createIf(social, terri, "Happy hour list");
 		seed.createIf(social, jeramiah, "Tinder for local food");
-		seed.createIf(social, christina, "Bar crawl mapper");
+		seed.createIf(social, christina, "BrewCrawl");
 		seed.createIf(game, landen, "Themed, updated Oregon Trail");
 		seed.createIf(productivity, amandam, "Task list gamified");
 		seed.createIf(social, gerry, "Angie's list for service providers");
 		seed.createIf(productivity, priya, "Grocery Gallery");
-		seed.createIf(data, jean, "App monitoring");
+		seed.createIf(data, jean, "Homegrown app monitoring");
 		seed.createIf(social, ben, "Community shed");
 		seed.createIf(health, amandak, "BlazeBit");
 		seed.createIf(health, jon, "Find a park");
 		seed.createIf(productivity, luka, "eRAM: Enterprise Retrospective Analytics Monitoring");
-		seed.createIf(productivity, dan, "Meal preparation planner");
+		seed.createIf(productivity, dan, "Meal preparation planning timer");
 		seed.createIf(finance, alex, "Loan Shark");
-		seed.createIf(health, jasmine, "Motivational pedometer");
+		seed.createIf(health, jasmine, "Puppies! Motivational Pedometer");
 		seed.createIf(social, tania, "BRB");
 		seed.createIf(productivity, james, "The Bucket List");
 		seed.createIf(productivity, chad, "Lyft Primetime");
-		seed.createIf(data, peter, "Data mapping for applications");
+		seed.createIf(data, peter, "Data application mapping IT (DAMIT)");
 		seed.createIf(business, bryan, "Music store inventory");
-		seed.createIf(social, ruben, "Next Gathering");
-		seed.createIf(social, mike, "YAH!");
-		seed.createIf(social, jourdan, "Social for Dogs");
-		seed.createIf(social, aj, "EatnWatch");
+		seed.createIf(social, bryan, "Veteran-focused assistance app");
+		seed.createIf(social, ruben, "HappyHour.com (Although that's probably taken...)");
+		seed.createIf(social, mike, "YAH! Real-time travel blogging");
+		seed.createIf(social, jourdan, "Fido Meet Spot: social media for dogs");
 		seed.createIf(data, joseph, "Data attribute governance");
-		seed.createIf(business, rudy, "Music portfolio app");
-		seed.createIf(business, rudy, "College review site");
+		seed.createIf(business, rudy, "Snappy Song! a music repertoire app");
+		seed.createIf(business, rudy, "Snappy College! a college review site");
 		
-		seed.createIf(social, luka, "SKETCH-E");
+		seed.createIf(social, luka, "SKETCH-E, Waze but for sketchy situations");
 		seed.createIf(social, dan, "Public bathroom rating app (Castanza App)");
+		
+		seed.createIf(social, leah, "Good Flicks, a GoodReads-like thing for movies");
+		
+		
 	}
 	
 	private static String schema() {

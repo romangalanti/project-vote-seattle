@@ -65,6 +65,9 @@ public class SeedData {
 		Student tania = seed.createIf("Tania", "Asim");
 		Student trace = seed.createIf("Trace", "Ferre");
 		
+		seed.createIf("Curtis", "Schlak");
+		seed.createIf("Eric", "Schwartz");
+		
 		ProjectCategory charity = seed.createIf("Charity");
 		ProjectCategory productivity = seed.createIf("Productivity");
 		ProjectCategory social = seed.createIf("Social");

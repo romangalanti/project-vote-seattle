@@ -113,6 +113,8 @@ public class SeedData {
 		
 		seed.createIf(social, leah, "Good Flicks, a GoodReads-like thing for movies");
 		
+		seed.createIf(productivity, trace, "School information and organizations management site");
+		
 		
 	}
 	
